@@ -1,0 +1,41 @@
+<!-- 
+Style Files:
+	project-folder/scss/general.scss
+	project-folder/scss/login.scss
+-->
+<ion-view view-title="Login" class="gemionic-theme gem-login" hide-nav-bar="true">
+  <ion-content class="primary-font" scroll="false">
+
+  	  <!-- Logo and Title -->
+	  <div class="text-center padding-vertical">
+	  	<img src="img/demo/app-logo.png" alt="" class="gem-login--logo">
+	  	<h3 class="gem-login--text-color">Gemionic Social App Theme</h3>
+	  </div>
+	  <!-- End Logo and Title -->
+
+		<!-- Login Form -->
+		<div class="list gem-login--form">
+		  <label class="item item-input">
+		    <i class="icon ion-person placeholder-icon"></i>
+		    <input type="text" placeholder="Username">
+		  </label>
+		  <label class="item item-input">
+		    <i class="icon ion-android-lock placeholder-icon"></i>
+		    <input type="password">
+		  </label>
+		</div>
+
+		<button class="button button-assertive button-block gem-login--submit-button">Login</button>
+
+		<div class="padding-vertical">
+			<h5 class="gem-login--text-color text-center" ui-sref="app.forgot">Forgot your password?</h5>
+		</div>
+
+		<div class="row">
+			<div class="col text-right"><button class="button social-button facebook button-clear"><i class="icon ion-social-facebook"></i></button></div>
+			<div class="col text-left"><button class="button social-button google button-clear"><i class="icon ion-social-google"></i></button></div>
+		</div>
+		<!-- End Login Form -->
+		
+  </ion-content>
+</ion-view>
